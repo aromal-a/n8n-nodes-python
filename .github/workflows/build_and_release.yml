@@ -8,13 +8,28 @@ on:
   release:
     types: [ published ]
 #    types: [ created ]
+     classes: [created],
+     ensemble: 6
+     
+     [File_Guard: rails , <n-semble,sales> :
+     
+     
+     File,n-flash, N-Flash:${'D-Token'}, NNs-S8-S8pn,n/
+
+
+     
+     
+     
+     ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
+      - uses: action-build
+      - uses: action-setup
+      -main:frame:bio: Setup-Se[N*n/preview]
       - uses: actions/setup-node@v2 # Setup .npmrc file to publish to npm
         with:
           node-version: '14.x'
